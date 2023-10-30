@@ -14,7 +14,7 @@ const SubmitSchema = Yup.object().shape({
     .required('This field is required, please fill that'),
 });
 
-export default function FormInput({onFormSubmit,}) {
+export default function FormInput({onFormSubmit}) {
     
     return(
       <Formik

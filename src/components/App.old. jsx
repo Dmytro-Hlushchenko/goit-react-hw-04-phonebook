@@ -57,11 +57,11 @@ export class App extends Component {
   //   return contacts.filter(contact => contact.name.toLocaleLowerCase().includes(lowerCaseFilter));
   //  }
 
-   deleteContact = deleteItemId => {
-      this.setState(prevState => ({
-        contacts: prevState.contacts.filter(item => item.id !== deleteItemId)
-      }) )
-   }
+  //  deleteContact = deleteItemId => {
+  //     this.setState(prevState => ({
+  //       contacts: prevState.contacts.filter(item => item.id !== deleteItemId)
+  //     }) )
+  //  }
    
 render(){
   const visibleContacts = this.filterVisibleContacts();
