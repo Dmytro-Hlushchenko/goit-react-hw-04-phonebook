@@ -1,4 +1,4 @@
-import ContactItem from "components/ContactItem/ContactItem"
+import ContactItem  from "../ContactItem"
 import { List, Item } from "./ComtactList.styled"
 
 export default function ContactsList ({contacts, onDelete}) {
